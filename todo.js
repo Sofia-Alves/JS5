@@ -72,7 +72,7 @@ function newTask() {
 	del.addEventListener("click", deleteTask);
 };
 
-// on place un ecouteur sur chaque bouton edit
+// on place un ecouteur sur chaque bouton edit 
 document.querySelectorAll(".edit_task_button").forEach(editBtn => editBtn.addEventListener("click", editTask));
 
 //au click

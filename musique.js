@@ -18,8 +18,6 @@ function lecteurDeMP3(){
     audio.autoplay = false;
 
 
- 
-
     var btn_teuf = document.getElementById('btn_teuf');
 
     btn_teuf.addEventListener('click', function(e){
@@ -30,7 +28,6 @@ function lecteurDeMP3(){
        
         });
         
-
         document.getElementById('audio_box').appendChild(audio);
         context = new webkitAudioContext(); // AudioContext -> crée et retourne un nouvel objet AudioContext, interfeace du lecteur
         analyser = context.createAnalyser(); // AnalyserNode / Analyse les données de temps et de frequence pour la visualisation des barres de son 
